@@ -4,7 +4,7 @@ public class Main {
         int replenishment = 1001;
         int bonus = 0;
         if (replenishment > 1000) {
-            bonus = replenishment / 10;
+            bonus = replenishment / 100;
         }
         int finalBalance = currentBalance + replenishment + bonus;
         System.out.println("Бонус:" + bonus);
